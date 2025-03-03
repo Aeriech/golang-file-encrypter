@@ -1,17 +1,16 @@
 ## **Getting Started**
 
-### Project Overview
-GoCrypt - A Simple File Encryption & Decryption Tool
-GoCrypt is a lightweight, command-line file encryption and decryption tool built in Golang, designed to secure sensitive files using AES-GCM encryption with PBKDF2-based key derivation. It provides an easy way to encrypt files with a password and decrypt them when needed, ensuring data security and integrity.
+### Project Overview - GoCrypt
+This project is a CLI-based chatbot built in Golang, leveraging Google's Gemini API for natural language processing (NLP). The chatbot allows users to interact with Gemini AI in a conversational manner, processing user inputs and generating intelligent responses. The application manages chat sessions, retrieves an API key from environment variables, and continuously accepts user input until the conversation is ended.
 
 Key Features:
-✔️ AES-GCM Encryption – Provides strong encryption with authentication.
-✔️ PBKDF2 Key Derivation – Strengthens password security with salt and iterations.
-✔️ Simple CLI Interface – Encrypt and decrypt files with intuitive commands.
-✔️ Automatic File Naming –
-      Adds .encrypted when encrypting.
-      Renames to -decrypted before the file extension when decrypting.
-✔️ Cross-Platform Support – Works on Windows, macOS, and Linux.
+   - AES-GCM Encryption - Provides strong encryption with authentication.
+   - PBKDF2 Key Derivation - Strengthens password security with salt and iterations.
+   - Simple CLI Interface - Encrypt and decrypt files with intuitive commands.
+   - Automatic File Naming -
+      - Adds .encrypted when encrypting.
+      - Renames to -decrypted before the file extension when decrypting.
+   - Cross-Platform Support - Works on Windows, macOS, and Linux.
 
 Tech Stack:
    - Golang (Primary Language)
