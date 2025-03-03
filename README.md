@@ -1,20 +1,23 @@
 ## **Getting Started**
 
 ### Project Overview
-GoCrypt
-This project is a secure file encryption and decryption utility built in Golang, utilizing AES-GCM (Galois/Counter Mode) for authenticated encryption. It allows users to encrypt files using a password-derived key and decrypt them seamlessly, ensuring data confidentiality and integrity. The tool automatically renames encrypted and decrypted files for clarity, preventing accidental overwrites.
+GoCrypt - A Simple File Encryption & Decryption Tool
+GoCrypt is a lightweight, command-line file encryption and decryption tool built in Golang, designed to secure sensitive files using AES-GCM encryption with PBKDF2-based key derivation. It provides an easy way to encrypt files with a password and decrypt them when needed, ensuring data security and integrity.
 
 Key Features:
-✔️ AES-GCM Encryption – Secure and authenticated encryption with a randomly generated nonce.
-✔️ PBKDF2 Key Derivation – Ensures strong encryption keys from user-provided passwords.
-✔️ Automatic File Naming – Adds .encrypted when encrypting and -decrypted when decrypting.
-✔️ File Integrity Preservation – Prevents modification or tampering by verifying authenticity.
-✔️ Cross-Platform Compatibility – Works on Windows, macOS, and Linux.
+✔️ AES-GCM Encryption – Provides strong encryption with authentication.
+✔️ PBKDF2 Key Derivation – Strengthens password security with salt and iterations.
+✔️ Simple CLI Interface – Encrypt and decrypt files with intuitive commands.
+✔️ Automatic File Naming –
+      Adds .encrypted when encrypting.
+      Renames to -decrypted before the file extension when decrypting.
+✔️ Cross-Platform Support – Works on Windows, macOS, and Linux.
 
 Tech Stack:
    - Golang (Primary Language)
    - AES-GCM (Encryption Algorithm)
    - PBKDF2 (Key Derivation)
+   - CLI (Command-Line Interface)
 
 ### Prerequisites
 
